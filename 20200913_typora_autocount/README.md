@@ -6,13 +6,13 @@ Demo:
 
 Demo for auto number marker of content and left side outline:
 
-![截屏2020-09-13 下午8.38.22](https://tva1.sinaimg.cn/large/007S8ZIlgy1gipb1s7volj319s0u0gvv.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gipb1s7volj319s0u0gvv.jpg)
 
 
 
 Demo for auto number marker of `[TOC]` :
 
-![截屏2020-09-13 下午8.38.22](https://tva1.sinaimg.cn/large/007S8ZIlgy1gipb2foghnj31b20u0wos.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gipb2foghnj31b20u0wos.jpg)
 
 
 
