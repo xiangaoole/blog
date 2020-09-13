@@ -1,0 +1,54 @@
+
+.sidebar-content {
+    counter-reset: h1ol
+}
+
+.outline-h1 {
+    counter-reset: h2ol
+}
+
+.outline-h2 {
+    counter-reset: h3ol
+}
+
+.outline-h3 {
+    counter-reset: h4ol
+}
+
+.outline-h4 {
+    counter-reset: h5ol
+}
+
+.outline-h5 {
+    counter-reset: h6ol
+}
+
+.outline-h1>.outline-item>.outline-label:before {
+    counter-increment: h1ol;
+    content: "# ";
+}
+
+.outline-h2>.outline-item>.outline-label:before {
+    counter-increment: h2ol;
+    content: counter(h2ol) ". ";
+}
+
+.outline-h3>.outline-item>.outline-label:before {
+    counter-increment: h3ol;
+    content: counter(h2ol) "." counter(h3ol) " "
+}
+
+.outline-h4>.outline-item>.outline-label:before {
+    counter-increment: h4ol;
+    content: counter(h2ol) "." counter(h3ol) "." counter(h4ol) " "
+}
+
+.outline-h5>.outline-item>.outline-label:before {
+    counter-increment: h5ol;
+    content: counter(h2ol) "." counter(h3ol) "." counter(h4ol) "." counter(h5ol) " "
+}
+
+.outline-h6>.outline-item>.outline-label:before {
+    counter-increment: h6ol;
+    content: counter(h2ol) "." counter(h3ol) "." counter(h4ol) "." counter(h5ol) "." counter(h6ol) " "
+}
