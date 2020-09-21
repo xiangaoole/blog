@@ -1,18 +1,18 @@
 # How to add auto number marker before headings of Typora?
 
-
+## How
 
 Demo:
 
 Demo for auto number marker of content and left side outline:
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gipb1s7volj319s0u0gvv.jpg)
+![](007S8ZIlgy1gipb1s7volj319s0u0gvv.jpg)
 
 
 
 Demo for auto number marker of `[TOC]` :
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gipb2foghnj31b20u0wos.jpg)
+![](007S8ZIlgy1gipb2foghnj31b20u0wos.jpg)
 
 
 
@@ -34,3 +34,6 @@ I add three css files to add auto number maker separately for [outline](outline-
 
 3. restart Typora.app
 
+## Reference:
+
+- [https://support.typora.io/Auto-Numbering/](https://support.typora.io/Auto-Numbering/)
