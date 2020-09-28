@@ -12,7 +12,9 @@ Demo for auto number marker of content and left side outline:
 
 Demo for auto number marker of `[TOC]` :
 
-![](007S8ZIlgy1gipb2foghnj31b20u0wos.jpg)
+![demo-of-outline-and-toc](demo-of-outline-and-toc.jpg)
+
+
 
 
 

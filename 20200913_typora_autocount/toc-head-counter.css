@@ -8,31 +8,31 @@
 }
 
 .md-toc-content {
-    counter-reset: h1toc
+    counter-reset: h1toc h2toc h3toc h4toc h5toc h6toc
 }
 
 .md-toc-h1 {
     margin-left: 0;
     font-size: 1.5rem;
-    counter-reset: h2toc
+    counter-reset: h2toc h3toc h4toc h5toc h6toc
 }
 
 .md-toc-h2 {
     font-size: 1.1rem;
     margin-left: 2rem;
-    counter-reset: h3toc
+    counter-reset: h3toc h4toc h5toc h6toc
 }
 
 .md-toc-h3 {
     margin-left: 3rem;
     font-size: .9rem;
-    counter-reset: h4toc
+    counter-reset: h4toc h5toc h6toc
 }
 
 .md-toc-h4 {
     margin-left: 4rem;
     font-size: .85rem;
-    counter-reset: h5toc
+    counter-reset: h5toc h6toc
 }
 
 .md-toc-h5 {
@@ -75,7 +75,7 @@
 
 .md-toc-h4:before {
     counter-increment: h4toc;
-    content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) " "
+    content: "(" counter(h4toc) ") "
 }
 
 .md-toc-h4 .md-toc-inner {
@@ -84,7 +84,7 @@
 
 .md-toc-h5:before {
     counter-increment: h5toc;
-    content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) " "
+    content: "(" counter(h4toc) "." counter(h5toc) ") "
 }
 
 .md-toc-h5 .md-toc-inner {
@@ -93,7 +93,7 @@
 
 .md-toc-h6:before {
     counter-increment: h6toc;
-    content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) ". " counter(h6toc) " "
+    content: "<" counter(h6toc) "> "
 }
 
 .md-toc-h6 .md-toc-inner {

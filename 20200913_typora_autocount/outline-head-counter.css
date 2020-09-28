@@ -1,22 +1,22 @@
 
 .sidebar-content {
-    counter-reset: h1ol
+    counter-reset: h1ol h2ol h3ol h4ol h5ol h6ol
 }
 
 .outline-h1 {
-    counter-reset: h2ol
+    counter-reset: h2ol h3ol h4ol h5ol h6ol
 }
 
 .outline-h2 {
-    counter-reset: h3ol
+    counter-reset: h3ol h4ol h5ol h6ol
 }
 
 .outline-h3 {
-    counter-reset: h4ol
+    counter-reset: h4ol h5ol h6ol
 }
 
 .outline-h4 {
-    counter-reset: h5ol
+    counter-reset: h5ol h6ol
 }
 
 .outline-h5 {
@@ -40,15 +40,15 @@
 
 .outline-h4>.outline-item>.outline-label:before {
     counter-increment: h4ol;
-    content: counter(h2ol) "." counter(h3ol) "." counter(h4ol) " "
+    content: "(" counter(h4ol) ") "
 }
 
 .outline-h5>.outline-item>.outline-label:before {
     counter-increment: h5ol;
-    content: counter(h2ol) "." counter(h3ol) "." counter(h4ol) "." counter(h5ol) " "
+    content: "(" counter(h4ol) "." counter(h5ol) ") "
 }
 
 .outline-h6>.outline-item>.outline-label:before {
     counter-increment: h6ol;
-    content: counter(h2ol) "." counter(h3ol) "." counter(h4ol) "." counter(h5ol) "." counter(h6ol) " "
+    content: "<" counter(h6ol) "> "
 }
